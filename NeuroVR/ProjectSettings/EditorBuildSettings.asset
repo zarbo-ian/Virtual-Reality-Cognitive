@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Supermercado(1).unity
+    guid: b8ada9e96ab041f4aaacf55a3dcc3b7d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 489104e117929344597c55fc1d1277fa, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: bc806d92a7fa08f44b88911b37eccb4c, type: 2}
