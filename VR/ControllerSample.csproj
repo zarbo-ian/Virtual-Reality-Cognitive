@@ -53,14 +53,14 @@
     <UnityVersion>2020.2.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionAssetEnabler.cs" />
-    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToSliderISX.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\DisplayDeviceInfoFromActionISX.cs" />
-    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToButtonISX.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToVisibilityISX.cs" />
-    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToVector2SliderISX.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\TrackingModeOrigin.cs" />
+    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToSliderISX.cs" />
     <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\AutomaticTrackingModeChanger.cs" />
+    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToVector2SliderISX.cs" />
+    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionAssetEnabler.cs" />
+    <Compile Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ActionToButtonISX.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Samples\OpenXR Plugin\1.0.3\Controller\Scripts\ControllerSample.asmdef" />
