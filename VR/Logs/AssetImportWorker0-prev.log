@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 3498 MB
+OS: 'Windows 10 Home; OS build 19044.1889; Version 2009; 64bit' Language: 'es' Physical Memory: 3498 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,12 +15,12 @@ C:/proyecto/Virtual-Reality-Cognitive/VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63708
+62611
 Successfully changed project path to: C:/proyecto/Virtual-Reality-Cognitive/VR
 C:/proyecto/Virtual-Reality-Cognitive/VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 452.73 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 6.26 ms.
+Refreshing native plugins compatible for Editor in 517.44 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 15.57 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/proyecto/Virtual-Reality-Cognitive/VR/Assets
@@ -35,19 +35,372 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015030 seconds.
+Registered in 0.006564 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 295.67 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.50 ms.
+Refreshing native plugins compatible for Editor in 103.31 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.74 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in 16.522 seconds
+- Completed reload, in  5.136 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.979747 seconds.
+Registered in 0.037835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 145.78 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.50 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\proyecto\Virtual-Reality-Cognitive\VR\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\proyecto\Virtual-Reality-Cognitive\VR\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.797 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 150.4 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3869.
+Total: 10.035800 ms (FindLiveObjects: 0.736300 ms CreateObjectMapping: 1.237800 ms MarkObjects: 5.590300 ms  DeleteObjects: 2.468300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Productos/CREMA.fbx
+  artifactKey: Guid(dee3aa17cc8e1d342a71c3eacdfd0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/CREMA.fbx using Guid(dee3aa17cc8e1d342a71c3eacdfd0a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd489a60d463af922fec9fd0f50f2b439') in 1.122850 seconds
+  Import took 1.133982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Productos/manzana 1.fbx
+  artifactKey: Guid(2611f0d45d77c0c4682b8bd54ea678bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/manzana 1.fbx using Guid(2611f0d45d77c0c4682b8bd54ea678bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5fe4af0343097cb03b5ae9a2cc3815') in 0.051079 seconds
+  Import took 0.060414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Productos/cepilloNARANJA.fbx
+  artifactKey: Guid(ddf34175eb21dcd4ab5288d2e4cb1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cepilloNARANJA.fbx using Guid(ddf34175eb21dcd4ab5288d2e4cb1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faab82ea848f7bf5a6fb44a6be7d435') in 0.094289 seconds
+  Import took 0.101730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Productos/tomate.fbx
+  artifactKey: Guid(79ee7d81b93f21f44a2f4731dcc9fff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/tomate.fbx using Guid(79ee7d81b93f21f44a2f4731dcc9fff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7abd0a440b20e2676ffdeee2fb925d') in 0.091454 seconds
+  Import took 0.105646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Productos/cepilloVERDE2.fbx
+  artifactKey: Guid(bd6fb230044a94947a508176aa32b94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cepilloVERDE2.fbx using Guid(bd6fb230044a94947a508176aa32b94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a55cbe9c2ce6ee29b87bfb47815b9d') in 0.098407 seconds
+  Import took 0.111745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Productos/APIO.fbx
+  artifactKey: Guid(4ca16f9a45bc77245b6032906532392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/APIO.fbx using Guid(4ca16f9a45bc77245b6032906532392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e02659edf5a868b804e123e5f1324d0') in 0.071489 seconds
+  Import took 0.080728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Productos/heladera.fbx
+  artifactKey: Guid(c477c341fdbf1884195dad2d15078e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/heladera.fbx using Guid(c477c341fdbf1884195dad2d15078e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959a8ac3f9b28cf198a569bc0fad5389') in 0.062313 seconds
+  Import took 0.074508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Productos/SHAMPOO.fbx
+  artifactKey: Guid(bdd6b088f0aca144e87ef85951b7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/SHAMPOO.fbx using Guid(bdd6b088f0aca144e87ef85951b7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82935a5e4657c6bdd3d7692304e902e5') in 0.066454 seconds
+  Import took 0.077439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Productos/zanahoria.fbx
+  artifactKey: Guid(c124b02ae9b9a6e4a97830b41053b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/zanahoria.fbx using Guid(c124b02ae9b9a6e4a97830b41053b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93ada72cd6c43508cb846168c71631d') in 0.096470 seconds
+  Import took 0.106691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Productos/caja_automatica .fbx
+  artifactKey: Guid(f884d1d192f8d2544bb66300f1f7d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/caja_automatica .fbx using Guid(f884d1d192f8d2544bb66300f1f7d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e776a29798369178b1b436dcfa5aee') in 0.092571 seconds
+  Import took 0.101443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Productos/cepilloROJO.fbx
+  artifactKey: Guid(5f2eb0dc8cd8ac5428d60557dbfdff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cepilloROJO.fbx using Guid(5f2eb0dc8cd8ac5428d60557dbfdff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834ce9957c0a650d9e80f636f4827a83') in 0.098324 seconds
+  Import took 0.107537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Productos/OLIVA.fbx
+  artifactKey: Guid(7c4f705aab338e244970158cdf44dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/OLIVA.fbx using Guid(7c4f705aab338e244970158cdf44dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c550a469c2d2cc9b4a67f49d05b83fe1') in 0.067611 seconds
+  Import took 0.077014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Productos/FIDEOS.fbx
+  artifactKey: Guid(08d55a690eeb417469019b32cc5bc71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/FIDEOS.fbx using Guid(08d55a690eeb417469019b32cc5bc71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf9aa06690656a993a6105890aa1c87') in 0.062984 seconds
+  Import took 0.071189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Productos/LECHUGA.fbx
+  artifactKey: Guid(4281429a830ce834696e79951a5db89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/LECHUGA.fbx using Guid(4281429a830ce834696e79951a5db89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e62ccbe01f6df10e5315467363a7e3') in 0.039788 seconds
+  Import took 0.047500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Productos/pera.fbx
+  artifactKey: Guid(301902b79ec72bf409d3525ef168ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/pera.fbx using Guid(301902b79ec72bf409d3525ef168ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad44878cc0f561ea61c70801f9f2082') in 0.041335 seconds
+  Import took 0.049061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Productos/PIMENTON.fbx
+  artifactKey: Guid(f481ce8157dd7354ead7d658a8c50784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/PIMENTON.fbx using Guid(f481ce8157dd7354ead7d658a8c50784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768bae704977519cd8e3b72721538df6') in 0.038083 seconds
+  Import took 0.048100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Productos/PIMENTON_NARANJA.fbx
+  artifactKey: Guid(fc17b47b0db25d247917719636df049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/PIMENTON_NARANJA.fbx using Guid(fc17b47b0db25d247917719636df049f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd43e1dc68672a0598e91740ef84a23') in 0.047170 seconds
+  Import took 0.055841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Productos/gondolablend.fbx
+  artifactKey: Guid(9e61ff8be229b1948a0e8163271f1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/gondolablend.fbx using Guid(9e61ff8be229b1948a0e8163271f1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41d7a091a80c69230e3ddde3c860c83') in 0.029863 seconds
+  Import took 0.038013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Productos/cocabotella.fbx
+  artifactKey: Guid(6292712a3caee49429bedf53dde9ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cocabotella.fbx using Guid(6292712a3caee49429bedf53dde9ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be2e3847d02d43e11158e05d2de04fc') in 0.070401 seconds
+  Import took 0.080490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Productos/PIMENTON_VERDE.fbx
+  artifactKey: Guid(979ab9377d29a7242a369d470fbc1d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/PIMENTON_VERDE.fbx using Guid(979ab9377d29a7242a369d470fbc1d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6771f430eeefbf2c6e21f682d0dcb3') in 0.049710 seconds
+  Import took 0.060901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Productos/JUGO_UVA.fbx
+  artifactKey: Guid(842715b0a00b7694fb9f92caf8120709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/JUGO_UVA.fbx using Guid(842715b0a00b7694fb9f92caf8120709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353c200adc7ead09d39bd0074a46e772') in 0.098754 seconds
+  Import took 0.106313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Productos/zanahoria 1.fbx
+  artifactKey: Guid(a3c3d07fe4f01b449bfcc0092d3b120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/zanahoria 1.fbx using Guid(a3c3d07fe4f01b449bfcc0092d3b120c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b872305c27738a3903144a6c88b85b') in 0.096632 seconds
+  Import took 0.108607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Productos/banana.fbx
+  artifactKey: Guid(7f3fdfc9f06b6e746bdbe150308f3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/banana.fbx using Guid(7f3fdfc9f06b6e746bdbe150308f3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4d0b288803912c5086a60e24fee490') in 0.048593 seconds
+  Import took 0.061988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Productos/cepilloAZUL.fbx
+  artifactKey: Guid(906836ffcd5c4524bac1d2da77f44096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cepilloAZUL.fbx using Guid(906836ffcd5c4524bac1d2da77f44096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9658baf37425fc1d2cf2be77193f5f') in 0.095734 seconds
+  Import took 0.106796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Productos/banana.fbx
+  artifactKey: Guid(7f3fdfc9f06b6e746bdbe150308f3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/banana.fbx using Guid(7f3fdfc9f06b6e746bdbe150308f3a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4d0b288803912c5086a60e24fee490') in 0.047339 seconds
+  Import took 0.057626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Productos/shopping_cart.fbx
+  artifactKey: Guid(fdd032baec441984cb67ff17b777a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/shopping_cart.fbx using Guid(fdd032baec441984cb67ff17b777a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0287ee69d550f499a488f50f926214') in 0.068178 seconds
+  Import took 0.077327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Productos/cepilloROSA.fbx
+  artifactKey: Guid(60a3414e571d503428b114b286195d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/cepilloROSA.fbx using Guid(60a3414e571d503428b114b286195d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2156b9357fb273b67ab4bc16683d9739') in 0.095136 seconds
+  Import took 0.105288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Productos/manzana.fbx
+  artifactKey: Guid(a9ded699722a2984696e4a1da744bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/manzana.fbx using Guid(a9ded699722a2984696e4a1da744bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7037012beabdade5c67cc336b056fb') in 0.049574 seconds
+  Import took 0.058014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Productos/Side_Table_04.FBX
+  artifactKey: Guid(c3c3d976d28fc7147afd4dc55b4c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/Side_Table_04.FBX using Guid(c3c3d976d28fc7147afd4dc55b4c9652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ecbddcbba3f3942414002a0d4f864f') in 0.044121 seconds
+  Import took 0.054565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Productos/spritebotella.fbx
+  artifactKey: Guid(c6484f020f5b8ff45a6eb1ed771f10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/spritebotella.fbx using Guid(c6484f020f5b8ff45a6eb1ed771f10b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92298c6578ae42d138400b6f6bfc3f2') in 0.075504 seconds
+  Import took 0.084364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.916535 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(e96c84ccbb43c90498b1e1b17716ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(e96c84ccbb43c90498b1e1b17716ec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98767b089135c829854f93d57267252') in 0.027365 seconds
+  Import took 0.037592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Materials/New Material 4.mat
+  artifactKey: Guid(b14c1c6df09c30a47baec278cd938b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 4.mat using Guid(b14c1c6df09c30a47baec278cd938b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c502c41558d2d4d5bc82571d9a5beecc') in 0.025611 seconds
+  Import took 0.033184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Materials/TexturesCom_WoodFine0086_5_S.png
+  artifactKey: Guid(ba8a046ef51c20b4d814141c1c361e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TexturesCom_WoodFine0086_5_S.png using Guid(ba8a046ef51c20b4d814141c1c361e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ef8e176758a8c47a7ab62c99295305') in 0.056291 seconds
+  Import took 0.066143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(2330f94101a427a49a8f322a5815ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 2.mat using Guid(2330f94101a427a49a8f322a5815ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8877fa0bb2ed35c3cb77c3cdb01611fc') in 0.016917 seconds
+  Import took 0.027469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a772fdc1d263eafacb726299bd3e220f') in 0.022160 seconds
+  Import took 0.031875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(f8ba8a5c65e04f64a8186fc9f167c805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(f8ba8a5c65e04f64a8186fc9f167c805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc606da3239d9b65e464710ba7afa5ac') in 0.018827 seconds
+  Import took 0.028377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(0a5340c2dee6f324caa1ca0c40b10103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(0a5340c2dee6f324caa1ca0c40b10103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fae480e2d12cfd808a44020301949c3') in 0.018618 seconds
+  Import took 0.029336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.596191 seconds.
+  path: Assets/Materials/Materials
+  artifactKey: Guid(4f851d67f43b5b64781f3aa2d7b0c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials using Guid(4f851d67f43b5b64781f3aa2d7b0c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c5c5ea03d74379baa27370a5fa4bee') in 0.007982 seconds
+  Import took 0.016013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064092 seconds.
+  path: Assets/Materials/Materials/TexturesCom_WoodFine0086_5_S 1.mat
+  artifactKey: Guid(e9ef1af971fa53e44a1ccda26dddb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/TexturesCom_WoodFine0086_5_S 1.mat using Guid(e9ef1af971fa53e44a1ccda26dddb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde2356635c065413e69046bd7c34ff4') in 0.019184 seconds
+  Import took 0.031070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Materials/Materials/TexturesCom_WoodFine0086_5_S.mat
+  artifactKey: Guid(d02ae2beb4b6b9748897bcff4cedae6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/TexturesCom_WoodFine0086_5_S.mat using Guid(d02ae2beb4b6b9748897bcff4cedae6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1527d523d00616e58543b1abbf7d10ed') in 0.025268 seconds
+  Import took 0.036665 seconds .
+
