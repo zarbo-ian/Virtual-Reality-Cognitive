@@ -15,12 +15,12 @@ C:/proyecto/Virtual-Reality-Cognitive/VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54671
+62134
 Successfully changed project path to: C:/proyecto/Virtual-Reality-Cognitive/VR
 C:/proyecto/Virtual-Reality-Cognitive/VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 271.99 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 30.53 ms.
+Refreshing native plugins compatible for Editor in 179.09 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 4.77 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/proyecto/Virtual-Reality-Cognitive/VR/Assets
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006634 seconds.
+Registered in 0.012625 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.78 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.43 ms.
+Refreshing native plugins compatible for Editor in 293.18 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.74 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.192 seconds
+- Completed reload, in  5.119 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.047205 seconds.
+Registered in 0.104757 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.21 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
+Refreshing native plugins compatible for Editor in 146.32 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -69,20 +69,34 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
+- Completed reload, in  3.542 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 15 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 15 plugins.
+Preloading 2 native plugins for Editor in 0.88 ms.
 Unloading 3460 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 152.9 MB.
 System memory in use after: 150.5 MB.
 
 Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3870.
-Total: 11.365100 ms (FindLiveObjects: 1.095700 ms CreateObjectMapping: 0.266000 ms MarkObjects: 7.370400 ms  DeleteObjects: 2.630100 ms)
+Total: 15.380400 ms (FindLiveObjects: 1.638100 ms CreateObjectMapping: 0.731800 ms MarkObjects: 5.714200 ms  DeleteObjects: 7.292400 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  path: Assets/Productos/supermercado.fbx
+  artifactKey: Guid(3e0466bfa5bdbd347828739b1cef920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/supermercado.fbx using Guid(3e0466bfa5bdbd347828739b1cef920a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10303953951e4a268ded3b32a643432e') in 0.861287 seconds
+  Import took 0.877231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 482.366393 seconds.
+  path: Assets/Productos/agarre.fbx
+  artifactKey: Guid(bd0eee6d14a12dd408005e4caeaca690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Productos/agarre.fbx using Guid(bd0eee6d14a12dd408005e4caeaca690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec84fac239342545336c447d375a00f') in 0.063795 seconds
+  Import took 0.076771 seconds .
+
